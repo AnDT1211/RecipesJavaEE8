@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+<h3><h:messages errorStyle="color: red" infoStyle="color: green" globalOnly="true"/></h3>
+<h:form id="componentForm">
+
+    name: <h:inputText value="#{q04WebController.userName}"/>
+    <br/><br/>
+
+    age: <h:inputText value="#{q04WebController.userAge}"/>
+    <br/><br/>
+
+    <h:messages for="email" errorStyle="color: brown" infoStyle="color: green" globalOnly="true"/>
+    email: <h:inputText id="email" value="#{q04WebController.userEmail}"/>
+    <br/><br/>
+
+    <h:commandButton action="#{q04WebController.register()}" value="register"/>
+</h:form>
+
+</html>
