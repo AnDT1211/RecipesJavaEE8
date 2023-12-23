@@ -21,6 +21,7 @@ testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
 
 - Section 03: The Basics of JavaServer Faces
     - Question 01: Writing a Simple JSF Application
+    - Question 02: Writing a Controller Class
 
 
 

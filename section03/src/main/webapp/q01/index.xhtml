@@ -6,9 +6,10 @@
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
       xmlns:f="http://xmlns.jcp.org/jsf/core">
 
-<h1>Section 03 - Writing a Simple JSF Application</h1>
-<h:link value="Question 01 page" outcome="/q01/index.xhtml" />
+<h3>Question 01</h3>
+
+<h:outputText value="name : #{q01WebController.name}"/>
 <br/>
-<h:link value="Question 02 page" outcome="/q02/index.xhtml" />
+age : #{q01WebControllerAnno.age}
 
 </html>

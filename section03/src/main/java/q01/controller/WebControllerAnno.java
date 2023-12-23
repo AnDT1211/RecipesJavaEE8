@@ -3,7 +3,7 @@ package q01.controller;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
 
-@ManagedBean
+@ManagedBean(name = "q01WebControllerAnno")
 @RequestScoped
 public class WebControllerAnno {
     private int age = 12;

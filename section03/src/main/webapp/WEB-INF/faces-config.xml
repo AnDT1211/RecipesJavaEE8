@@ -4,7 +4,7 @@
               xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
                                   http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_2.xsd">
     <managed-bean>
-        <managed-bean-name>webController</managed-bean-name>
+        <managed-bean-name>q01WebController</managed-bean-name>
         <managed-bean-class>q01.controller.WebController</managed-bean-class>
         <managed-bean-scope>request</managed-bean-scope>
     </managed-bean>

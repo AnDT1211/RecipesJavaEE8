@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+<h3>Question 02</h3>
+<h:form>
+    #{q02CalculateController.label1}:
+    <h:inputText value="#{q02CalculateController.num1}" label="number 1" />
+    <br/>
+    #{q02CalculateController.label2}:
+    <h:inputText value="#{q02CalculateController.num2}" label="number 2" />
+    <br/>
+    <h:commandButton action="#{q02CalculateController.calculate()}" value="#{q02CalculateController.buttonPlusAnswer}"/>
+    <br/>
+    #{q02CalculateController.solutionLabel} #{q02CalculateController.result}
+</h:form>
+
+
+</html>
