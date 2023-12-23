@@ -34,7 +34,6 @@ dependencies {
   // https://mvnrepository.com/artifact/org.primefaces/primefaces
   implementation 'org.primefaces:primefaces:13.0.4'
 
-
   testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
   testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
 }
