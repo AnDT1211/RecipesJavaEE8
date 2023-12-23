@@ -49,8 +49,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="jsf" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -92,7 +92,7 @@
       <recent name="$PROJECT_DIR$/src/main/webapp/q01" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.97">
+  <component name="RunManager" selected="Gradle.section03 [clean]">
     <configuration name="section03 [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -253,7 +253,7 @@
       <option name="presentableId" value="Default" />
       <updated>1703310023361</updated>
       <workItem from="1703310024392" duration="1100000" />
-      <workItem from="1703323268886" duration="4544000" />
+      <workItem from="1703323268886" duration="10411000" />
     </task>
     <servers />
   </component>

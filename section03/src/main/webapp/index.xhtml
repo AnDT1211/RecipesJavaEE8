@@ -6,9 +6,32 @@
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
       xmlns:f="http://xmlns.jcp.org/jsf/core">
 
+<h:head>
+    <title>main page</title>
+</h:head>
 <h1>Section 03 - Writing a Simple JSF Application</h1>
-<h:link value="Question 01 page" outcome="/q01/index.xhtml" />
 <br/>
-<h:link value="Question 02 page" outcome="/q02/index.xhtml" />
+<!--<br/>-->
+<!--<h:form>-->
+<!--<h:commandButton action="#{mainWebController.toPage1()}" value="to page 01"/>-->
+<!--    <br/>-->
+<!--    <br/>-->
+<!--<h:commandButton action="#{mainWebController.toPage2()}" value="to page 02"/>-->
+<!--    <br/>-->
+<!--    <br/>-->
+<!--<h:commandButton action="#{mainWebController.toPage3()}" value="to page 03"/>-->
+<!--    <br/>-->
+<!--    <br/>-->
+<!--</h:form>-->
+
+<h:button outcome="#{mainWebController.toPage1()}" value="page 01"/>
+<h:button outcome="#{mainWebController.toPage2()}" value="page 02"/>
+<h:button outcome="#{mainWebController.toPage3()}" value="page 03"/>
+
+
+
+
+
+
 
 </html>
