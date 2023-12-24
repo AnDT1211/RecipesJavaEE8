@@ -30,5 +30,8 @@ public class MainWebController {
     public String toPage9() {
         return "/q09/index";
     }
+    public String toPage10() {
+        return "/q10/index";
+    }
 
 }
