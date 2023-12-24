@@ -26,6 +26,7 @@ testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
     - Question 04: Displaying Messages in JSF Pages
     - Question 05: Updating Messages Without Recompiling
     - Question 06: Navigating Based Upon Conditions
+    - Question 07: Validating User Input
 
 
 

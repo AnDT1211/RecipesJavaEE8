@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+<h:head>
+    <title>register page</title>
+</h:head>
+
+<h:body>
+    <h1>User Register</h1>
+    <h:messages id="registerMsg" infoStyle="color: green"/>
+    <h:form id="formRegister">
+        First name : <h:inputText value="#{q07RegisterController.firstName}" id="firstNameInput"/>
+        <br/>
+        <br/>
+
+        Last name : <h:inputText value="#{q07RegisterController.lastName}" id="lastNameInput"/>
+        <br/>
+        <br/>
+
+        email : <h:inputText value="#{q07RegisterController.email}" id="emailInput"/>
+        <br/>
+        <br/>
+
+        password :
+        <h:inputText value="#{q07RegisterController.password}" id="passwordInput">
+            <f:validator validatorId="q07PwdValidFirst"/>
+        </h:inputText>
+        <h:message for="passwordInput" errorStyle="color: red" infoStyle="color: green"/>
+        <br/>
+        <br/>
+
+        confirm password :
+        <h:inputText value="#{q07RegisterController.passwordConfirm}" id="passwordConfirmInput">
+            <f:validator validatorId="q07PwdValidSecond"/>
+        </h:inputText>
+        <h:message for="passwordConfirmInput" errorStyle="color: red" infoStyle="color: green"/>
+        <br/>
+        <br/>
+
+        <h:commandButton action="#{q07RegisterController.register()}" value="Register"/>
+    </h:form>
+
+
+</h:body>
+
+
+</html>
