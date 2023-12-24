@@ -27,6 +27,8 @@ testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
     - Question 05: Updating Messages Without Recompiling
     - Question 06: Navigating Based Upon Conditions
     - Question 07: Validating User Input
+        - dung `<validator/>`, trigger khi submut
+    - Question 08: Evaluating Page Expressions Immediately
 
 
 

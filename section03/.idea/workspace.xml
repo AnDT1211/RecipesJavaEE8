@@ -97,7 +97,7 @@
       <recent name="$PROJECT_DIR$/src/main/webapp/q01" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.section03 [clean]">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.97">
     <configuration name="section03 [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -260,7 +260,7 @@
       <workItem from="1703310024392" duration="1100000" />
       <workItem from="1703323268886" duration="13991000" />
       <workItem from="1703342086137" duration="4104000" />
-      <workItem from="1703387725439" duration="4663000" />
+      <workItem from="1703387725439" duration="6060000" />
     </task>
     <servers />
   </component>

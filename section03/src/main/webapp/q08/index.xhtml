@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+<h1>Question 08 - update immediately</h1>
+
+<!--rendered return to boolean-->
+<h:dataTable value="#{q08GarageController.cars}" rendered="#{q08GarageController.cars.size() > 0}" var="car">
+    <f:facet name="header">
+        List of Cars
+    </f:facet>
+    <h:column>
+        <f:facet name="header">Car name</f:facet>
+        #{car.name}
+    </h:column>
+    <h:column>
+        <f:facet name="header">Car series</f:facet>
+        #{car.series}
+    </h:column>
+    <h:column>
+        <f:facet name="header">Car age</f:facet>
+        #{car.year}
+    </h:column>
+    <h:column>
+        <f:facet name="header">Car plate number</f:facet>
+        #{car.plateNumber}
+    </h:column>
+</h:dataTable>
+
+<br/>
+<br/>
+
+<h3>Registering</h3>
+<h:form>
+    Car name: <h:inputText value="#{q08GarageController.carNameReg}"/>
+    <br/>
+    <br/>
+    Car series: <h:inputText value="#{q08GarageController.carSeriesReg}"/>
+    <br/>
+    <br/>
+    Car year: <h:inputText value="#{q08GarageController.carYearReg}"/>
+    <br/>
+    <br/>
+    Car plate number: <h:inputText value="#{q08GarageController.carNumReg}"/>
+    <br/>
+    <br/>
+    <h:commandButton action="#{q08GarageController.register()}" value="Register"/>
+</h:form>
+
+</html>

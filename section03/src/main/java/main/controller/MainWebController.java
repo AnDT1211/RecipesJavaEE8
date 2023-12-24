@@ -24,5 +24,8 @@ public class MainWebController {
     public String toPage7() {
         return "/q07/index";
     }
+    public String toPage8() {
+        return "/q08/index";
+    }
 
 }
