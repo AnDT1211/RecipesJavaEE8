@@ -31,6 +31,8 @@ testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
     - Question 08: Evaluating Page Expressions Immediately
     - Question 09: Passing Page Parameters to Methods
     - Question 10: Using Operators and Reserved Words in Expressions
+    - Question 14: Creating Page Templates
+    - Question 18: Invoking Controller Class Actions on Lifecycle Phase Events
 
 
 

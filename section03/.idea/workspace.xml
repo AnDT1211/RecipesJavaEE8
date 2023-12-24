@@ -49,8 +49,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="jsf" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -98,6 +98,7 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/note/img" />
+      <recent name="$PROJECT_DIR$/src/main/resources/note/img2" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
       <recent name="$PROJECT_DIR$/src/main/webapp/q01" />
     </key>
@@ -268,7 +269,7 @@
       <workItem from="1703310024392" duration="1100000" />
       <workItem from="1703323268886" duration="13991000" />
       <workItem from="1703342086137" duration="4104000" />
-      <workItem from="1703387725439" duration="7465000" />
+      <workItem from="1703387725439" duration="8168000" />
     </task>
     <servers />
   </component>
