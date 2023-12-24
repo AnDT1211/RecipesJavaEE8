@@ -72,29 +72,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.Build section03.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.section03 [build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.section03 [clean].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Tomcat Server.Tomcat 8.5.97.executor&quot;: &quot;Run&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build section03.executor": "Run",
+    "Gradle.section03 [build].executor": "Run",
+    "Gradle.section03 [clean].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Tomcat Server.Tomcat 8.5.97.executor": "Run",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/ando/Documents/DevLearning/JavaEELearning/JavaEE8Recipes/section03/src/main/webapp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/note/img" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
       <recent name="$PROJECT_DIR$/src/main/webapp/q01" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="q09.model" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.97">
@@ -260,7 +268,7 @@
       <workItem from="1703310024392" duration="1100000" />
       <workItem from="1703323268886" duration="13991000" />
       <workItem from="1703342086137" duration="4104000" />
-      <workItem from="1703387725439" duration="6060000" />
+      <workItem from="1703387725439" duration="7018000" />
     </task>
     <servers />
   </component>
