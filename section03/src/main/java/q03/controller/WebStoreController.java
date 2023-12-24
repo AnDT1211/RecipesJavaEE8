@@ -42,7 +42,7 @@ public class WebStoreController {
     }
 
     public String back() {
-        return "/q03/index.xhtml";
+        return "/q03/page1.xhtml";
     }
     public void addBookAction() {
         books.add(new Book(nameOfBook, authorOfBook, priceOfBook));

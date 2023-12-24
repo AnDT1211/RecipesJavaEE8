@@ -3,9 +3,15 @@
               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
               xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
                                   http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_2.xsd">
-    <managed-bean>
-        <managed-bean-name>q01WebController</managed-bean-name>
-        <managed-bean-class>q01.controller.WebController</managed-bean-class>
-        <managed-bean-scope>request</managed-bean-scope>
-    </managed-bean>
+
+
+    <navigation-rule>
+        <from-view-id>/q06/index.xhtml</from-view-id>
+        <navigation-case>
+            <from-outcome>PAGE_1</from-outcome>
+            <to-view-id>/q06/page1.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+
+
 </faces-config>

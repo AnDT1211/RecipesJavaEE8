@@ -24,8 +24,8 @@ testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
     - Question 02: Writing a Controller Class
     - Question 03: Building Sophisticated JSF Views with Components
     - Question 04: Displaying Messages in JSF Pages
-
-
+    - Question 05: Updating Messages Without Recompiling
+    - Question 06: Navigating Based Upon Conditions
 
 
 
